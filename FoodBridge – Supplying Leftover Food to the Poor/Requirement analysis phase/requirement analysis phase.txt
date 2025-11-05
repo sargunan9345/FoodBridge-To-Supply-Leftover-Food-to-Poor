@@ -1,0 +1,80 @@
+
+## **Requirement Analysis Phase Report**
+
+### **Project Title:**
+
+**FoodBridge – Supplying Leftover Food to the Poor**
+
+**Team ID:** NM2025TMID03850
+**Team Size:** 4
+**Team Leader:** Karthick Yogesh M
+**Team Members:** Sargunan S, Selvabharathi S, Vishal J
+
+---
+
+### **1. Project Overview**
+
+The **FoodBridge** project aims to create a digital platform that connects food donors (restaurants, events, and individuals) with NGOs and volunteers to minimize food wastage and feed the underprivileged.
+The platform enables real-time communication, location tracking, and food safety management for efficient food redistribution.
+
+---
+
+### **2. Functional Requirements**
+
+| ID  | Requirement Description                                                         |
+| --- | ------------------------------------------------------------------------------- |
+| FR1 | User Registration and Login (Donor, NGO, Volunteer)                             |
+| FR2 | Food donors can post details about leftover food (type, quantity, expiry time). |
+| FR3 | System automatically notifies nearby NGOs and volunteers.                       |
+| FR4 | Volunteers can accept pickup requests and track delivery.                       |
+| FR5 | Admin can monitor activity logs, manage users, and validate food safety data.   |
+
+---
+
+### **3. Non-Functional Requirements**
+
+| ID   | Requirement Description                                                          |
+| ---- | -------------------------------------------------------------------------------- |
+| NFR1 | The system should handle up to 1000 concurrent users without performance issues. |
+| NFR2 | The platform must ensure secure data storage and privacy.                        |
+| NFR3 | The system should provide real-time updates with less than 2-second delay.       |
+| NFR4 | The app should be compatible with Android, iOS, and web browsers.                |
+| NFR5 | Backup and recovery processes should be implemented to prevent data loss.        |
+
+---
+
+### **4. System Requirements**
+
+**Hardware Requirements:**
+
+* Processor: Intel i5 or above
+* RAM: Minimum 8 GB
+* Storage: Minimum 256 GB SSD
+* Network: Stable internet connection
+
+**Software Requirements:**
+
+* Operating System: Windows / Linux / macOS
+* Backend: Node.js, Express.js
+* Frontend: React.js
+* Database: Firebase / MongoDB
+* Tools: VS Code, Git, Postman
+
+---
+
+### **5. Use Case Description**
+
+A **food donor** logs into the system and posts available food details. The **system** notifies nearby **volunteers and NGOs** based on their location.
+A **volunteer** accepts the request, collects the food, and updates the delivery status.
+The **NGO** confirms delivery, ensuring the food reaches the intended recipients safely and efficiently.
+
+---
+
+### **6. Expected Outcome**
+
+* Clearly defined requirements to guide the development process.
+* Better understanding of user expectations and system functionality.
+* Reliable, secure, and user-friendly platform to minimize food wastage.
+
+---
+
